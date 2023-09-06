@@ -37,7 +37,7 @@
             <div class="container_nav_desk">
                 <div class="container_logo">
                     <img src=" {{ asset('assets/images/icons/hamburguer.svg') }} " alt="menu hamburguer"
-                    class="menu_hamburguer_tablet">
+                        class="menu_hamburguer_tablet">
                     <img src=" {{ asset('assets/images/logos/logo_desk.svg') }} " alt="Logo Real Hosting">
                 </div>
 
@@ -56,7 +56,6 @@
                         <p>Minha conta</p>
                     </div>
                 </div>
-
             </div>
         </nav>
     </header>

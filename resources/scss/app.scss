@@ -5,170 +5,189 @@
     padding: 0;
     border: 0;
 }
-.section_discord_terms{
-    background-color: #FF9800;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-
-    .container_discod_term{
-        display: none;
-    }
-
-
-    @media screen and (min-width: 600px) {
+header{
+    .section_discord_terms{
+        background-color: #FF9800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+    
         .container_discod_term{
+            display: none;
+        }
+    
+    
+        @media screen and (min-width: 600px) {
+            .container_discod_term{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 80%;
+            }
+            .container_discord{
+                display: flex;
+                height: 15.45px;
+            }
+            .container_discord:hover{
+                cursor: pointer;
+            }
+            .container_terms{
+                display: flex;
+                height: 19px;
+            }
+            .container_terms{
+                cursor: pointer;
+            }
+            img{
+                margin-right: 11px;
+               
+            }
+            p{
+                color: white;
+                font-size: 14px;
+                line-height: 16.94px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+    
+    nav{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 68px;
+    
+        .container_nav_mob{
+            width: 80%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            width: 80%;
-        }
-        .container_discord{
-            display: flex;
-            height: 15.45px;
-        }
-        .container_discord:hover{
-            cursor: pointer;
-        }
-        .container_terms{
-            display: flex;
-            height: 19px;
-        }
-        .container_terms{
-            cursor: pointer;
-        }
-        img{
-            margin-right: 11px;
-           
-        }
-        p{
-            color: white;
-            font-size: 14px;
-            line-height: 16.94px;
-            font-family: 'Inter', sans-serif;
-            font-weight: 400;
-        }
-    }
-}
-
-nav{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 68px;
-
-    .container_nav_mob{
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .menu_hamburguer{
-        margin-right: 20px;
-    }
-
-    .container_nav_desk{
-            display: none;
-    }
-
-    @media screen and (min-width: 650px) {
-        height: 95px;
-        .container_nav_mob{
-            display: none;
         }
         .menu_hamburguer{
-            display: none;
+            margin-right: 20px;
         }
-
-        .container_nav_desk{
-            width: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            .container_logo{
-                .menu_hamburguer_tablet{
-                    height: 25px;
-                    margin-right: 10px;
-                }
-            }
-
-            ul{
-                display: flex;
-
-                li{
-                    color: #828282;
-                    font-size: 16px;
-                    line-height: 16.94px;
-                    font-family: 'Inter', sans-serif;
-                    font-weight: 400;
-                    margin-right: 15px;
-                    list-style: none;
-
-                }
-            }
-            .container_register_my_accont{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                p{
-                    color: #FF9800;
-                    font-size: 14px;
-                    line-height: 16.94px;
-                    font-family: 'Inter', sans-serif;
-                    font-weight: 400;
-                    margin-right: 15px;
-                }
-                .container_button{
-                    width: 160px;
-                    height: 40px;
-                    background-color: #FF9800;
-                    border-radius: 10px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+        .menu_hamburguer:hover{
+            cursor: pointer;
+        }
     
-                    img{
-                        width: 16px;
-                        height: 16px;
-                        margin-right: 9px;
+        .container_nav_desk{
+                display: none;
+        }
+    
+        @media screen and (min-width: 650px) {
+            height: 95px;
+            .container_nav_mob{
+                display: none;
+            }
+            .menu_hamburguer{
+                display: none;
+            }
+    
+            .container_nav_desk{
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                .container_logo{
+                    .menu_hamburguer_tablet{
+                        height: 25px;
+                        margin-right: 10px;
+                        cursor: pointer;
                     }
+                }
+    
+                ul{
+                    display: flex;
+    
+                    li{
+                        color: #828282;
+                        font-size: 16px;
+                        line-height: 16.94px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: 400;
+                        margin-right: 15px;
+                        list-style: none;
+                    }
+                    li:hover{
+                        cursor: pointer;
+                        color: #FF9800;
+                    }
+                }
+                .container_register_my_accont{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
                     p{
-                        color: white;
+                        color: #FF9800;
                         font-size: 14px;
                         line-height: 16.94px;
                         font-family: 'Inter', sans-serif;
                         font-weight: 400;
+                        margin-right: 15px;
+                        cursor: pointer;
+                    }
+                    p:hover{
+                        color: #d27e00;
+
+                    }
+                    .container_button{
+                        width: 160px;
+                        height: 40px;
+                        background-color: #FF9800;
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+        
+                        img{
+                            width: 16px;
+                            height: 16px;
+                            margin-right: 9px;
+                        }
+                        p{
+                            color: white;
+                            font-size: 14px;
+                            line-height: 16.94px;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 400;
+                        }
+                    }
+                    .container_button:hover{
+                        background-color: #d27e00;
+                        cursor: pointer;
                     }
                 }
-            }
-
-            @media screen and (max-width: 1100px) {
-                ul{
-                    display: none;
     
-                    li{
+                @media screen and (max-width: 1100px) {
+                    ul{
+                        display: none;
+        
+                        li{
+                            display: none;
+                        }
+                    }
+                    
+                }
+                @media screen and (min-width: 1100px) {
+                    .menu_hamburguer_tablet{
                         display: none;
                     }
+                    
                 }
-                
-            }
-            @media screen and (min-width: 1100px) {
-                .menu_hamburguer_tablet{
-                    display: none;
+                @media screen and (min-width: 1200px) {
+                    li{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                    }
+                    
                 }
-                
-            }
-            @media screen and (min-width: 1200px) {
-                li{
-                    margin-left: 15px;
-                    margin-right: 15px;
-                }
-                
             }
         }
     }

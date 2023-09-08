@@ -40,7 +40,8 @@
 
 <p>In build</p>
 
-![image](https://github.com/LordBluue3/RealHosting/assets/58037508/c03edde8-a260-49b8-82b3-bc2422a14986)
+![image](https://github.com/LordBluue3/RealHosting/assets/58037508/3c2f48e7-2c68-4272-9d72-5c2d7b14a4eb)
+
 
 <br>
 <h1>Figma Project</h1>

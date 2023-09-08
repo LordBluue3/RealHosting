@@ -302,11 +302,15 @@ footer{
     }
 
     @media screen and (min-width: 800px) {
+
         .container_footer_top{
             display: flex;
             flex-direction: row;
             width: 100%;
             justify-content: space-between;
+        }
+        .container_informations{
+            align-items: normal;
         }
         .container_logo{
             .logo_footer_mob{
@@ -323,6 +327,18 @@ footer{
             flex-direction: row;
             width: 400px;
             justify-content: space-around;
+        }
+        .container_about{
+            text-align: left;
+        }
+        .container_quality{
+            text-align: left;
+        }
+        h2{
+            text-align: left;
+        }
+        ul{
+            text-align: left;
         }
 
         .container_copy_terms{

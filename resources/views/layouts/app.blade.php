@@ -38,7 +38,9 @@
                 <div class="container_logo">
                     <img src=" {{ asset('assets/images/icons/hamburguer.svg') }} " alt="menu hamburguer"
                         class="menu_hamburguer_tablet">
-                    <img src=" {{ asset('assets/images/logos/logo_desk.svg') }} " alt="Logo Real Hosting">
+                    <a href="/">
+                        <img src=" {{ asset('assets/images/logos/logo_desk.svg') }} " alt="Logo Real Hosting">
+                    </a>
                 </div>
 
                 <ul>
@@ -66,7 +68,10 @@
             <div class="container_footer_top">
                 <div class="container_informations">
                     <div class="container_logo">
-                        <img src=" {{asset('assets/images/logos/logo_mob.svg')}} " alt="Logo Real Hosting">
+                        <img class="logo_footer_mob" src=" {{asset('assets/images/logos/logo_mob.svg')}} " alt="Logo Real Hosting">
+                        <a href="/">
+                            <img class="logo_footer_desk" src=" {{asset('assets/images/logos/logo_desk.svg')}} " alt="Logo Real Hosting">
+                        </a>
                     </div>
                     <div class="container_about">
                         <p>A empresa tem a intenção de prover o serviço 
@@ -107,7 +112,7 @@
             </div>
             <div class="container_copy_terms">
                 <div class="container_copy">
-                    <p>RealHosting Hospedagem Ltda. Copyright © 2021 - 2022</p>
+                    <p>RealHosting Hospedagem Ltda. Copyright © 2021 - {{date('Y')}}</p>
                 </div>
                 <div class="container_terms">
                     <p>Termos & Políticas</p>

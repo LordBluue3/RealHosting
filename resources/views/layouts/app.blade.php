@@ -5,6 +5,8 @@
 <head>
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     @vite(['resources/scss/app.scss'])
+
+    @stack('head')
 </head>
 
 <body>
@@ -61,6 +63,11 @@
             </div>
         </nav>
     </header>
+
+    <div class="content">
+        @yield('content')
+
+    </div>
 
     <footer>
 

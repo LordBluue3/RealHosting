@@ -34,41 +34,145 @@
             <ul class="carousel">
                 <li>
                     <div class="container_icon">
-                        <img draggable="false" src=" {{asset('assets/images/home/icons/suport.svg')}} " alt="Icone de suporte">
+                        <img draggable="false" src=" {{ asset('assets/images/home/icons/suport.svg') }} "
+                            alt="Icone de suporte">
                     </div>
-                    <p>Suporte<br> 
+                    <p>Suporte<br>
                         Especializado</p>
                 </li>
                 <li>
                     <div class="container_icon">
-                        <img draggable="false" src=" {{asset('assets/images/home/icons/protection.svg')}} " alt="Icone de proteção">
+                        <img draggable="false" src=" {{ asset('assets/images/home/icons/protection.svg') }} "
+                            alt="Icone de proteção">
                     </div>
                     <p>Proteção de<br>
-                         Dados</p>
+                        Dados</p>
                 </li>
                 <li>
                     <div class="container_icon">
-                        <img draggable="false" src=" {{asset('assets/images/home/icons/host.svg')}} " alt="Icone de hospedagem">
+                        <img draggable="false" src=" {{ asset('assets/images/home/icons/host.svg') }} "
+                            alt="Icone de hospedagem">
                     </div>
                     <p>Hospedagem <br>
                         Licenciada</p>
                 </li>
                 <li>
                     <div class="container_icon">
-                        <img draggable="false" src=" {{asset('assets/images/home/icons/quality.svg')}} " alt="Icone de qualidade">
+                        <img draggable="false" src=" {{ asset('assets/images/home/icons/quality.svg') }} "
+                            alt="Icone de qualidade">
                     </div>
-                    <p>Qualidade & <br> 
+                    <p>Qualidade & <br>
                         Performance</p>
                 </li>
                 <li>
                     <div class="container_icon">
-                        <img draggable="false" src=" {{asset('assets/images/home/icons/system.svg')}} " alt="Icone de sistema">
+                        <img draggable="false" src=" {{ asset('assets/images/home/icons/system.svg') }} "
+                            alt="Icone de sistema">
                     </div>
                     <p>Sistemas <br>
-                         Inteligentes</p>
+                        Inteligentes</p>
                 </li>
             </ul>
         </div>
+    </section>
+    <section class="section_products">
+        <div class="container_products">
+            <div class="container_text_plans">
+                <h1>Confira os nossos principais plano
+                    totalmente ideal para o seu projeto
+                </h1>
+                <p>Promova hoje seu servidor com uma
+                    hospedagem com uma alta qualidade e proteção
+                    contra qualquer tipo de ataque.
+                </p>
+            </div>
+
+            <div class="container_carousel">
+                <ul class="carousel_product">
+                    <li>
+                        <div class="container_plan_product">
+                            <div class="container_image_product">
+                                <img draggable="false" src=" {{asset('/assets/images/products/image1.png')}} " alt="Icone">
+                            </div>
+                            <div class="container_title_product">
+                                <h1>Hospedagem de MTA</h1>
+                            </div>
+                            <div class="container_plans">
+                                <p class="plan">Planos a partir de</p>
+                                <p class="price"><strong>R$9,99</strong>/mensal</p>
+                                <p class="description_plan">
+                                    Servidores MTA com um sistema
+                                    inovador de compactador e download
+                                    e hospedagem totalmente Brasileira.
+                                </p>
+                            </div>
+                            <div class="container_button">
+                                <button>
+                                    Ver todos os planos
+                                </button>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="container_plan_product">
+                            <div class="container_image_product">
+                                <img draggable="false" src=" {{asset('/assets/images/products/image1.png')}} " alt="Icone">
+                            </div>
+                            <div class="container_title_product">
+                                <h1>Hospedagem de MTA</h1>
+                            </div>
+                            <div class="container_plans">
+                                <p class="plan">Planos a partir de</p>
+                                <p class="price"><strong>R$9,99</strong>/mensal</p>
+                                <p class="description_plan">
+                                    Servidores MTA com um sistema
+                                    inovador de compactador e download
+                                    e hospedagem totalmente Brasileira.
+                                </p>
+                            </div>
+                            <div class="container_button">
+                                <button>
+                                    Ver todos os planos
+                                </button>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="container_plan_product">
+                            <div class="container_image_product">
+                                <img src=" {{asset('/assets/images/products/image1.png')}} " alt="Icone">
+                            </div>
+                            <div class="container_title_product">
+                                <h1>Hospedagem de MTA</h1>
+                            </div>
+                            <div class="container_plans">
+                                <p class="plan">Planos a partir de</p>
+                                <p class="price"><strong>R$9,99</strong>/mensal</p>
+                                <p class="description_plan">
+                                    Servidores MTA com um sistema
+                                    inovador de compactador e download
+                                    e hospedagem totalmente Brasileira.
+                                </p>
+                            </div>
+                            <div class="container_button">
+                                <button>
+                                    Ver todos os planos
+                                </button>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section class="section_testimony">
+
     </section>
 
     @vite(['resources/js/carousel.js'])

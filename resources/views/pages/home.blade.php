@@ -92,7 +92,8 @@
                     <li>
                         <div class="container_plan_product">
                             <div class="container_image_product">
-                                <img draggable="false" src=" {{asset('/assets/images/products/image1.png')}} " alt="Icone">
+                                <img draggable="false" src=" {{ asset('/assets/images/products/image1.png') }} "
+                                    alt="Icone">
                             </div>
                             <div class="container_title_product">
                                 <h1>Hospedagem de MTA</h1>
@@ -118,7 +119,8 @@
                     <li>
                         <div class="container_plan_product">
                             <div class="container_image_product">
-                                <img draggable="false" src=" {{asset('/assets/images/products/image1.png')}} " alt="Icone">
+                                <img draggable="false" src=" {{ asset('/assets/images/products/image1.png') }} "
+                                    alt="Icone">
                             </div>
                             <div class="container_title_product">
                                 <h1>Hospedagem de MTA</h1>
@@ -144,7 +146,7 @@
                     <li>
                         <div class="container_plan_product">
                             <div class="container_image_product">
-                                <img src=" {{asset('/assets/images/products/image1.png')}} " alt="Icone">
+                                <img src=" {{ asset('/assets/images/products/image1.png') }} " alt="Icone">
                             </div>
                             <div class="container_title_product">
                                 <h1>Hospedagem de MTA</h1>
@@ -182,7 +184,7 @@
                 <ul class="carousel_testimony">
                     <li>
                         <div class="container_client">
-                            <img src=" {{asset("assets/images/home/testimony/client.png")}} " alt="">
+                            <img src=" {{ asset('assets/images/home/testimony/client.png') }} " alt="">
                             <h1>JS Studio<br>
                                 <strong>Cliente</strong>
                             </h1>
@@ -195,7 +197,7 @@
 
                     <li>
                         <div class="container_client">
-                            <img src=" {{asset("assets/images/home/testimony/client.png")}} " alt="">
+                            <img src=" {{ asset('assets/images/home/testimony/client.png') }} " alt="">
                             <h1>JS Studio<br>
                                 <strong>Cliente</strong>
                             </h1>
@@ -208,7 +210,7 @@
 
                     <li>
                         <div class="container_client">
-                            <img src=" {{asset("assets/images/home/testimony/client.png")}} " alt="">
+                            <img src=" {{ asset('assets/images/home/testimony/client.png') }} " alt="">
                             <h1>JS Studio<br>
                                 <strong>Cliente</strong>
                             </h1>
@@ -224,6 +226,95 @@
         </div>
 
     </section>
+    <section class="section_faq">
+        <div class="title">
+            <h1>Perguntas Frequentes</h1>
+        </div>
+
+        <div id="accordion" class="faq">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                        aria-expanded="true" aria-controls="collapse1">
+                        Qual é o tempo de ativação do serviço?
+                    </button>
+                    <img src=" {{ asset('assets/images/home/icons/arrow.svg') }} " alt="">
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                    data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        Nosso tempo de ativação dura em torno de 5
+                        Minutos após a compra e validação do serviço
+                        escolhido.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="accordion2" class="faq">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                        Como funciona o sistema de reembolso?
+                    </button>
+                    <img src=" {{ asset('assets/images/home/icons/arrow.svg') }} " alt="">
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="heading2"
+                    data-bs-parent="#accordion2">
+                    <div class="accordion-body">
+                        Nosso tempo de ativação dura em torno de 5
+                        Minutos após a compra e validação do serviço
+                        escolhido.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="accordion3" class="faq">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        Qual horário de atendimento?
+                    </button>
+                    <img src=" {{ asset('assets/images/home/icons/arrow.svg') }} " alt="">
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse " aria-labelledby="heading3"
+                    data-bs-parent="#accordion3">
+                    <div class="accordion-body">
+                        Nosso tempo de ativação dura em torno de 5
+                        Minutos após a compra e validação do serviço
+                        escolhido.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="accordion4" class="faq">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        Quais data center vocês utilizam?
+                    </button>
+                    <img src=" {{ asset('assets/images/home/icons/arrow.svg') }} " alt="">
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse " aria-labelledby="heading4"
+                    data-bs-parent="#accordion4">
+                    <div class="accordion-body">
+                        Nosso tempo de ativação dura em torno de 5
+                        Minutos após a compra e validação do serviço
+                        escolhido.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
 
     @vite(['resources/js/carousel.js'])
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 @endsection

@@ -172,6 +172,56 @@
 
     </section>
     <section class="section_testimony">
+        <div class="container_testimony_client">
+            <div class="container_title_testimony">
+                <h1>Depoimentos de nossos Clientes</h1>
+                <p>Veja alguns depoimentos de clientes que adquiriram
+                    alguns dos nossos serviços.</p>
+            </div>
+            <div class="container_carousel">
+                <ul class="carousel_testimony">
+                    <li>
+                        <div class="container_client">
+                            <img src=" {{asset("assets/images/home/testimony/client.png")}} " alt="">
+                            <h1>JS Studio<br>
+                                <strong>Cliente</strong>
+                            </h1>
+                        </div>
+                        <div class="container_comment">
+                            <p>Serviço de ótima qualidade e
+                                com grande proteção, Recomendo!</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="container_client">
+                            <img src=" {{asset("assets/images/home/testimony/client.png")}} " alt="">
+                            <h1>JS Studio<br>
+                                <strong>Cliente</strong>
+                            </h1>
+                        </div>
+                        <div class="container_comment">
+                            <p>Serviço de ótima qualidade e
+                                com grande proteção, Recomendo!</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="container_client">
+                            <img src=" {{asset("assets/images/home/testimony/client.png")}} " alt="">
+                            <h1>JS Studio<br>
+                                <strong>Cliente</strong>
+                            </h1>
+                        </div>
+                        <div class="container_comment">
+                            <p>Serviço de ótima qualidade e
+                                com grande proteção, Recomendo!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
 
     </section>
 

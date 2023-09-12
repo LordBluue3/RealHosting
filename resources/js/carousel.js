@@ -1,5 +1,6 @@
 const carousel = document.querySelector('.carousel');
 const carouselProduct = document.querySelector('.carousel_product');
+const carouselTestimony = document.querySelector('.carousel_testimony');
 let isDragging = false;
 let startX, startScrollLeft;
 
@@ -39,4 +40,24 @@ carouselProduct.addEventListener("mousemove", (e)=>{
 document.addEventListener("mouseup", ()=>{
     isDragging = false;
     carouselProduct.classList.remove("dragging");
+});
+
+//Carousel Testimony
+
+carouselTestimony.addEventListener("mousedown", (e)=>{
+    isDragging = true;
+    carouselTestimony.classList.add("dragging");
+    startX = e.pageX;
+    startScrollLeft = carouselTestimony.scrollLeft;
+});
+
+carouselTestimony.addEventListener("mousemove", (e)=>{
+    if(!isDragging) return;
+    carouselTestimony.scrollLeft =  startScrollLeft - (e.pageX - startX);
+    
+});
+
+document.addEventListener("mouseup", ()=>{
+    isDragging = false;
+    carouselTestimony.classList.remove("dragging");
 });

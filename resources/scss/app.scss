@@ -109,6 +109,7 @@ header{
     
                 ul{
                     display: flex;
+                    margin-bottom: 0;
     
                     li{
                         color: #828282;
@@ -136,6 +137,7 @@ header{
                         font-family: 'Inter', sans-serif;
                         font-weight: 400;
                         margin-right: 15px;
+                        margin-bottom: 0;
                         cursor: pointer;
                     }
                     p:hover{
@@ -267,6 +269,8 @@ footer{
         line-height: 19px;
         margin-bottom: 15px;
     }
+    ul{
+        padding: 0;
     li{
         list-style: none;
         font-family: 'Inter', sans-serif;
@@ -280,6 +284,7 @@ footer{
         color: #FF9800;
         cursor: pointer;
     }
+}
     .container_suport{
         margin-top: 32px;
         max-width: 186px;

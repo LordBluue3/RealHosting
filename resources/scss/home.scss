@@ -496,6 +496,9 @@
                     font-weight: 600;
                     margin-left: 13px;
                     font-size: 12px;
+                    @media screen and  (min-width: 800px) {
+                        font-size: 17px; 
+                    }
                 }
                 img{
                     margin-right: 13px;
@@ -511,7 +514,9 @@
                 padding-top: 15px;
                 padding-bottom: 14px;
                 font-size: 12px;
-
+                @media screen and (min-width: 800px) {
+                    font-size: 17px;
+                }
             }
         }
     }

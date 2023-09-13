@@ -38,9 +38,9 @@
 
 <h1>Home Page</h1>
 
-<p>In build</p>
 
-![image](https://github.com/LordBluue3/RealHosting/assets/58037508/3c2f48e7-2c68-4272-9d72-5c2d7b14a4eb)
+![image](https://github.com/LordBluue3/RealHosting/assets/58037508/762b2e72-0f7b-40fc-b4f4-47734f38f2d5)
+
 
 
 <br>

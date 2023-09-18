@@ -8,14 +8,14 @@
 <h1>install PHP dependencies</h1>
 
 ```bash
-/composer install
+composer install
 ```
 
 <br>
 <h1>install JavaScript dependencies</h1>
 
 ```bash
-/npm install
+npm install
 ```
 
 <h1>create the .env</h1>
@@ -26,14 +26,14 @@
 <h1>start vite server</h1>
 
 ```bash
-/npm run dev
+npm run dev
 ```
 
 <br>
 <h1>start laravel server</h1>
 
 ```bash
-/php artisan serve
+php artisan serve
 ```
 
 <h1>Home Page</h1>

@@ -1,0 +1,69 @@
+.card {
+    background-color: #f9f3eb;
+    width: 300px;
+    height: 389px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    .container_image {
+        margin-bottom: 19px;
+    }
+    .container_text {
+        margin-bottom: 31px;
+        h1 {
+            font-family: "Inter", sans-serif;
+            font-size: 17px;
+        }
+    }
+    .container_plan_price {
+        margin-bottom: 24px;
+        h2 {
+            font-family: "Inter", sans-serif;
+            color: #828282;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+        }
+        p {
+            font-family: "Inter", sans-serif;
+            color: #000000;
+            strong {
+                color: #ff9800;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+    }
+    .container_description {
+        margin-bottom: 24px;
+        width: 222px;
+        p {
+            font-family: "Inter", sans-serif;
+            text-align: center;
+            color: #828282;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    .container_button {
+        button {
+            font-family: "Inter", sans-serif;
+            width: 215px;
+            height: 38px;
+            border-radius: 5px;
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        button:hover {
+            cursor: pointer;
+            background-color: #d27e00;
+        }
+    }
+}

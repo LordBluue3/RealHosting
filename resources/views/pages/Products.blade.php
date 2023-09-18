@@ -1,9 +1,20 @@
 @extends('layouts/app')
+
 @push('head')
-@vite(['resources/scss/products.scss'])
+    @vite(['resources/scss/pages/products.scss'])
 @endpush
+
 @section('content')
-<section class="section_services">
-a
-</section>
+    @include('components.titleServices', $data)
+
+    <section class="section_cards">
+       <div class="container_cards">
+        @include('components.cardProducts', $product )
+        @include('components.cardProducts', $product )
+        @include('components.cardProducts', $product )
+        @include('components.cardProducts', $product )
+        @include('components.cardProducts', $product )
+        @include('components.cardProducts', $product )
+       </div>
+    </section>
 @endsection

@@ -47,7 +47,16 @@
 
                 <ul>
                     <li>ínicio</li>
-                    <li>Hospedagem</li>
+                    <li id="dropdown">Hospedagem
+                        <img src="{{asset('assets/images/icons/arrow_orange.svg')}}" alt="">
+                        <div class="dropdown">
+                            <ul>
+                                <li>Minecraft</li>
+                                <li>Multi Theft Auto</li>
+                                <li>FiveM</li>
+                            </ul>
+                        </div>
+                    </li>
                     <li>Servidores</li>
                     <li>Suporte</li>
                     <li>Outros</li>

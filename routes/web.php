@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +17,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages/home');
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
-Route::get('/produtos', [ProductsController::class, 'index']);
+Route::get('/produtos', [ProductsController::class, 'index'])->name('products');
+
+Route::get('/register', [RegisterController::class, 'index'])->name('register');
+
+Route::get('/login', [LoginController::class, 'index'])->name('login');

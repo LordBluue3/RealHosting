@@ -1,0 +1,85 @@
+.section_login {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container_login {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .container_title {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                font-family: "Inter", sans-serif;
+                color: #FF9800;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 16px;
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                font-family: "Inter", sans-serif;
+                width: 330px;
+                border-radius: 15px;
+                text-align: center;
+                color: black;
+                background-color: white;
+                border: 1px solid #FF9800;
+                margin-top: 28px;
+                height: 40px;
+                list-style: none;
+            }
+            input:-webkit-autofill {
+                -webkit-box-shadow: 0 0 0px 1000px white inset;
+            }
+            .container_button {
+                margin-top: 57px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    font-size: 12px;
+                    font-family: "Inter", sans-serif;
+                    a{
+                        font-family: "Inter", sans-serif;
+                        color: #FF9800;
+                    }
+                    a:hover{
+                        color: #d27e00;
+                    }
+                }
+
+                button {
+                    font-family: "Inter", sans-serif;
+                    background-color: #FF9800;
+                    color: white;
+                    font-size: 14px;
+                    font-weight: bold;
+                    width: 128px;
+                    height: 40px;
+                    border-radius: 15px;
+                }
+                button:hover{
+                    background-color: #d27e00;
+                    cursor: pointer;
+                }
+            }
+            @media screen and (min-width: 650px) {
+               
+                input{
+                    width: 350px;
+                }
+            }
+        }
+    }
+}

@@ -40,15 +40,15 @@
                 <div class="container_logo">
                     <img src=" {{ asset('assets/images/icons/hamburguer.svg') }} " alt="menu hamburguer"
                         class="menu_hamburguer_tablet">
-                    <a href="/">
+                    <a href="{{route('home')}}">
                         <img src=" {{ asset('assets/images/logos/logo_desk.svg') }} " alt="Logo Real Hosting">
                     </a>
                 </div>
 
                 <ul>
-                    <li>ínicio</li>
+                    <li><a href="{{route('home')}}">ínicio</a></li>
                     <li id="dropdown">Hospedagem
-                        <img src="{{asset('assets/images/icons/arrow_orange.svg')}}" alt="">
+                        <div class="triangle"> </div>
                         <div class="dropdown">
                             <ul>
                                 <li>Minecraft</li>
@@ -57,13 +57,13 @@
                             </ul>
                         </div>
                     </li>
-                    <li>Servidores</li>
+                    <li><a href="{{route('products')}}">Produtos</a></li>
                     <li>Suporte</li>
                     <li>Outros</li>
                 </ul>
 
                 <div class="container_register_my_accont">
-                    <p>Registra-se</p>
+                    <p><a href="{{route('register')}}">Registra-se</a></p>
                     <div class="container_button">
                         <img src=" {{ asset('assets/images/icons/user_white.svg') }} " alt="user">
                         <p>Minha conta</p>
@@ -85,7 +85,7 @@
                 <div class="container_informations">
                     <div class="container_logo">
                         <img class="logo_footer_mob" src=" {{asset('assets/images/logos/logo_mob.svg')}} " alt="Logo Real Hosting">
-                        <a href="/">
+                        <a href="{{route('home')}}">
                             <img class="logo_footer_desk" src=" {{asset('assets/images/logos/logo_desk.svg')}} " alt="Logo Real Hosting">
                         </a>
                     </div>

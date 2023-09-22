@@ -59,7 +59,7 @@ Link: <a href="https://www.figma.com/file/WFYCl91rvxoLQvgR6JqfN1/RealHosting?typ
 - ~Register Page~
 - Side Menu Bar
 - DashBoard
-- Client area
+- Client Area
 
 <strong>Back-End</strong>
 

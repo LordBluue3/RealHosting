@@ -46,7 +46,31 @@ php artisan serve
 <br>
 <h1>Figma Project</h1>
 
-<a href="https://www.figma.com/file/WFYCl91rvxoLQvgR6JqfN1/RealHosting?type=design&node-id=33-4&mode=design&t=lg5kh2KvJBo9JkmV-0">Link Figma Project</a>
+Link: <a href="https://www.figma.com/file/WFYCl91rvxoLQvgR6JqfN1/RealHosting?type=design&node-id=33-4&mode=design&t=lg5kh2KvJBo9JkmV-0">Figma Project</a>
+
+
+<h1>TO DO</h1>
+
+<strong>Front-End</strong>
+- ~Home Page~
+- ~Products Page~
+- ~Product Page~
+- ~Login Page~
+- ~Register Page~
+- Side Menu Bar
+- DashBoard
+- Client area
+
+<strong>Back-End</strong>
+
+- Login System
+- Register System
+- Recover Password System
+- Pagament System
+- Automatic Send Product System
+- Product Posting System
+- Monitoring Product Sales System
+- Bot For Sending The Product In The User's Discord
 
 
 

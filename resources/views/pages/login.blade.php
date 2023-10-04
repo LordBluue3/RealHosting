@@ -10,9 +10,10 @@
             <h1>Entre na sua conta</h1>
         </div>
 
-        <form action="">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Senha">
+        <form action="{{route('login')}}" method="POST">
+            @csrf
+            <input name="email" type="email" placeholder="Email">
+            <input name="password" type="password" placeholder="Senha">
             <div class="container_button">
                 <p>Não tem uma conta? <a href="{{route('register')}}">Cadastre-se</a> </p>
                 <button type="submit">Logar</button>

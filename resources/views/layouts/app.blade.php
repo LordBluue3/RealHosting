@@ -64,7 +64,7 @@
 
                 <div class="container_register_my_accont">
                     <p><a href="{{route('register')}}">Registra-se</a></p>
-                    <div class="container_button">
+                    <div class="container_button" onclick="window.location='{{route('login')}}'">
                         <img src=" {{ asset('assets/images/icons/user_white.svg') }} " alt="user">
                         <p>Minha conta</p>
                     </div>

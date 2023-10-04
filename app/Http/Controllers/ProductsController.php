@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ProductsController extends Controller
 {
-    public function index(){
+    public function show(){
         $data = [
             'title'=> 'Escolha um dos nossos serviços e aproveite nossas qualidades ',
             'text'=> 'Promova hoje seu servidor com uma hospedagem com uma alta qualidade e proteção contra qualquer tipo de ataque.'

@@ -63,8 +63,8 @@ Link: <a href="https://www.figma.com/file/WFYCl91rvxoLQvgR6JqfN1/RealHosting?typ
 
 <strong>Back-End</strong>
 
-- Login System
-- Register System
+- ~Login System~
+- ~Register System~
 - Recover Password System
 - Pagament System
 - Automatic Send Product System

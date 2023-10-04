@@ -6,7 +6,7 @@ use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model implements Authenticatable
+class Admin extends Model implements Authenticatable
 {
     use HasFactory;
 
@@ -41,5 +41,4 @@ class User extends Model implements Authenticatable
     {
         return 'remember_token'; // Nome do campo do token de lembrete
     }
-
 }

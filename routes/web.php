@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Dashboard\AdminController;
+use App\Http\Controllers\Dashboard\UserController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProductController;
@@ -18,12 +20,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'show'])->name('home');
 
-Route::get('/produtos', [ProductsController::class, 'index'])->name('products');
+Route::get('/produtos', [ProductsController::class, 'show'])->name('products');
 
-Route::get('/register', [RegisterController::class, 'index'])->name('register');
+Route::get('/register', [RegisterController::class, 'show'])->name('register');
+Route::post('/register', [RegisterController::class, 'store'])->name('register');
 
-Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::get('/login', [LoginController::class, 'show'])->name('login');
+Route::post('/login', [LoginController::class, 'store'])->name('login');
 
-Route::get('/produto', [ProductController::class, 'index'])->name('product');
+Route::get('/produto', [ProductController::class, 'show'])->name('product');
+
+Route::prefix('/dashboard/user')->middleware(['auth:web'])->group(function(){
+    Route::get('/', [UserController::class, 'show']);
+});
+
+Route::prefix('/dashboard/admin')->middleware(['auth:admin'])->group(function(){
+    Route::get('/', [AdminController::class, 'show']);
+});

@@ -11,7 +11,6 @@
 composer install
 ```
 
-<br>
 <h1>install JavaScript dependencies</h1>
 
 ```bash
@@ -22,14 +21,22 @@ npm install
 
 ![image](https://github.com/LordBluue3/RealHosting/assets/58037508/92fe8eca-ed91-4ece-80e1-c0ad4d00a089)
 
+<h1>you need to configure the database</h1>
+
+![image](https://github.com/LordBluue3/RealHosting/assets/58037508/e7738650-54ad-4f10-80bc-03eb104d116f)
+
 <br>
+<h1>run the migrations</h1>
+
+```bash
+php artisan migrate
+```
+
 <h1>start vite server</h1>
 
 ```bash
 npm run dev
 ```
-
-<br>
 <h1>start laravel server</h1>
 
 ```bash

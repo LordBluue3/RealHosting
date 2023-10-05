@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     public function show(){
-        return view('pages.dashboard.user');
+        return view('pages.dashboard.user.user');
     }
 }

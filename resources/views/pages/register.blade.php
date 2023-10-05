@@ -37,4 +37,5 @@
             }
         }
     </script>
+        <script> document.title = "RealHosting • Cadastrar" </script>
 @endsection

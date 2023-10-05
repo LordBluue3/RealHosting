@@ -22,4 +22,5 @@
 
     </div>
 </section>
+<script> document.title = "RealHosting • Login" </script>
 @endsection

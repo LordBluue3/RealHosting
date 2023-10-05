@@ -17,4 +17,5 @@
         @include('components.cardProducts', $product )
        </div>
     </section>
+    <script> document.title = "RealHosting • Produtos" </script>
 @endsection

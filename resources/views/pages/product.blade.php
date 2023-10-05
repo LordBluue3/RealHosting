@@ -13,4 +13,5 @@
             @endfor
         </div>
     </section>
+    <script> document.title = "RealHosting • Produto" </script>
 @endsection
